@@ -2,4 +2,5 @@
     <string name="app_name" translatable="false">Weather App</string>
     <string name="jerusalem_israel">Jerusalem, Israel</string>
     <string name="cloudy_now">cloudy now</string>
+    <string name="developed_by" translatable="false">Developed by - Rami Hacmon</string>
 </resources>

@@ -13,19 +13,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/jerusalem_israel"
-        android:textColor="#3F51B5"
+        android:textColor="@color/orange"
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/WeatherIcon"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginTop="90dp"
-        android:src="@drawable/ic_cloudy"
+        app:srcCompat="@drawable/ic_cloudy"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/city" />
@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="18°"
-        android:textColor="#000"
+        android:textColor="@color/orange"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,18 +62,18 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="87dp"
         android:text="02 Dec 20"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@+id/sunIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/WeatherStatus" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/sunIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:src="@drawable/ic_sun_line"
+        app:srcCompat="@drawable/ic_sun_line"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/firstDate"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +87,7 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="40dp"
         android:text="16°"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/sunIcon"
@@ -101,18 +101,18 @@
         android:layout_marginTop="22dp"
         android:layout_marginEnd="87dp"
         android:text="03 Dec 20"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@+id/sunIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sunIcon" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/rainIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:src="@drawable/ic_rain"
+        app:srcCompat="@drawable/ic_rain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/firstDate"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +126,7 @@
         android:layout_marginTop="22dp"
         android:layout_marginEnd="40dp"
         android:text="11°"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/sunIcon"
@@ -140,18 +140,18 @@
         android:layout_marginTop="22dp"
         android:layout_marginEnd="87dp"
         android:text="04 Dec 20"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@+id/sunIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rainIcon" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/sunAndrainIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:src="@drawable/ic_sun_cloudy"
+        app:srcCompat="@drawable/ic_sun_cloudy"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/firstDate"
         app:layout_constraintStart_toStartOf="parent"
@@ -165,7 +165,7 @@
         android:layout_marginTop="22dp"
         android:layout_marginEnd="40dp"
         android:text="13°"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/sunIcon"
@@ -179,18 +179,18 @@
         android:layout_marginTop="22dp"
         android:layout_marginEnd="87dp"
         android:text="05 Dec 20"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@+id/sunIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sunAndrainIcon" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/snowIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:src="@drawable/ic_snow"
+        app:srcCompat="@drawable/ic_snow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/firstDate"
         app:layout_constraintStart_toStartOf="parent"
@@ -204,7 +204,7 @@
         android:layout_marginTop="22dp"
         android:layout_marginEnd="40dp"
         android:text="-2°"
-        android:textColor="#000"
+        android:textColor="@color/list_color"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/sunIcon"

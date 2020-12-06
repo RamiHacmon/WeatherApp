@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מזג אוויר</string>
+    <string name="jerusalem_israel" translatable="false">ירושלים, ישראל</string>
+    <string name="cloudy_now" translatable="false">מעונן עכשיו</string>
+</resources>

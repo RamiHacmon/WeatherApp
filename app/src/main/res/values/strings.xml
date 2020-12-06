@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">מזג אוויר</string>
+    <string name="app_name" translatable="false">Weather App</string>
+    <string name="jerusalem_israel">Jerusalem, Israel</string>
+    <string name="cloudy_now">cloudy now</string>
 </resources>

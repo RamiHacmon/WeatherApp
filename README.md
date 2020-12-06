@@ -1,3 +1,3 @@
 # WeatherApp
-My first app in Androidoss course \n
+My first app in Androidoss course.
 All rights reserved
